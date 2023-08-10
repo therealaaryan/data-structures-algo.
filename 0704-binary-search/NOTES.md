@@ -1,1 +1,1 @@
-​
+Apply normal binary search.​
