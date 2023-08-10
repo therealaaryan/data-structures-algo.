@@ -1,1 +1,1 @@
-​
+Map every closing bracket to its corressponding opening bracket. Maintain a stack and if incoming element is an opening bracket, append it to the stack and if it is a closing bracket, pop from stack and check if it correctly maps to the correct element.​
