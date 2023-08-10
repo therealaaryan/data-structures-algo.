@@ -1,1 +1,1 @@
-​
+Maintain a copy stack that will store minimum element corressponding to every element in the main stack. When appending to main stack, append minimum of current value and top value of the copy stack to the copy stack. Apply pop operation on it when applied to the main stack. To shorten memory usage, combine main stack elements and copy stack elements into a tuple and store it in the main stack.​
