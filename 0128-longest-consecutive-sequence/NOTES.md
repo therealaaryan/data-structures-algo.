@@ -1,1 +1,1 @@
-​
+We will iterate over nums and check if element - 1 exists in nums. But we'll have to convert nums to set to eliminate duplicates , and using 'in' keyword in a set uses O(1) complexity. I felement - 1 doesn't exist, we can assume that the element can be the start of a consecutive chain and keep checking for element + 1 and note its length. If element - 1 exists, then it means that it has already been included in a chain hence no need to do anything to it.​
