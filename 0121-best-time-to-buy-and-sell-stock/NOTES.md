@@ -1,1 +1,1 @@
-​
+Use two pointers and keep shifting the right pointer to right hand side (both pointers should start from the beginning), and if the element at right pointers happens to be less than the element at left pointer, shift left pointer to that position. Keep track of maximum difference.​
