@@ -1,1 +1,1 @@
-​
+Create a function to check whether the entered char is alpha-numeric. Then, when setting two pointers, keep skipping if they aren't alphanumeric and if after using .islower() function on them, if they aren't equal, return False. ​
