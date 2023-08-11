@@ -1,1 +1,1 @@
-​
+Maintain a prev pointer behind cur pointer. Store cur.next in a temp variable, set cur.next to prev (reversing the pointer), set prev as cur (moving prev ahead) and set cur as temp (moving cur ahead).​
