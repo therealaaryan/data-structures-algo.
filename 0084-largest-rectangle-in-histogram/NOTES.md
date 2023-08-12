@@ -1,1 +1,1 @@
-​
+We will use a monotonic stack to see if the incoming bar if shorter than the bar at the top of the stack (the bar at top will not be extended further). If that happens, we will keep popping until the monotonicity is achieved. We will also maintain the starting index for every bar in the same stack (the starting index will be from where the bar will start from the left side). Also, we will calculate the area before popping. After the loop, if there are elements in the stack remaining, compute their area and return it.​
