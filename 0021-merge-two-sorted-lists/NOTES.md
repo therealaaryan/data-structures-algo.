@@ -1,1 +1,1 @@
-​
+Create a dummy list for ans, set two pointers on both the lists and compare the pointer values and keep adding to the dummy list. If any of the 2 lists are remaining, add it completely to the dummy list. Return dummy list.​
