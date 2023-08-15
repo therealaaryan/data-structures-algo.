@@ -1,1 +1,1 @@
-​
+We will create a mid and if mid is in left sorted array (mid > left), we will check if target is less than left or greater than mid. In both cases, will update the left pointer else the right. If the mid is in right sorted array, we'll check if target is greater less than mid or greater than right. In both cases, we'll update right pointer else the left.
