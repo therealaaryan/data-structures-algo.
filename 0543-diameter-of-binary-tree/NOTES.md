@@ -1,1 +1,1 @@
-​
+Store node and visited in stack. Also, maintain a hashmap for heights of node. If a node is visited, get the height of its left and right subtree, set its height in the hashmap and ​check maximum diameter(l_height + r_height). If it ins't visited, set it as visited and push it in the stack and push its children in the stack as not visited.
