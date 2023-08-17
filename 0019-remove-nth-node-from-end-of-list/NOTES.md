@@ -1,1 +1,1 @@
-​
+We'll use two pointers to solve this and a dummy node. We'll keep the left and right pointer n nodes apart and if the right pointer exits the linked list, we'll delete the node that the left pointer is at. To do that, we'll need access to the node previous of left. To achieve that, we'll set a dummy node behind head and initialize left pointer there, while the right pointer is n nodes ahead of the head.​
