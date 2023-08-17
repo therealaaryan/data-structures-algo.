@@ -1,1 +1,1 @@
-​
+Use the visited method and maintain a haspmap for all the heights of the nodes.If the absolute value of the difference between the left subtree and right subtree is greater than 1, return False. Default return True.​
