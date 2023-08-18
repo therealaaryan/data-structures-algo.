@@ -1,1 +1,1 @@
-​
+Store both trees in a tuple in stack and check if they exist and if they have the same values, append their children. If the nodes aren't equal (since the node would display all their attributes), return False. Default return True.​
