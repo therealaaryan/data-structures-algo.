@@ -1,1 +1,1 @@
-​
+We'll store a deep copy of all the nodes of head in a hashmap. Initialize the hashmap with None as the key and the deep copy (for when a node points to None). Then, store the head node as key and a copy node with the value of corressponding head node. Then, set the copy.next and copy.random as hashmap[cur.next] and hashmap[cur.random]. Return hashmap[head].​
