@@ -1,1 +1,1 @@
-​
+Maintain a cur pointer that'll traverse through the tree. If p.val and q.val is less than cur.val, shift cur to cur.left and vice verse. If one is less than cur and the other is greater, it means that we've found the LCA, hence return cur.​
