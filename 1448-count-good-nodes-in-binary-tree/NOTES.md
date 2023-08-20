@@ -1,1 +1,1 @@
-​
+During dfs, maintain node and maximum node value encountered yet in the stack. If node value is greater than or equal to the greatest encountered, increment ans by 1. The reason we maintain maximum in a tuple in stack along with node is because we want to find the greatest element in the path. If we wanted to do that for the entire tree, we would've maintained a separate variable for that.​
