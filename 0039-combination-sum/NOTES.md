@@ -1,1 +1,1 @@
-​
+In this problem, we can include an element as many times as we want. The base case hence will be if the total of subset is equal to target; append to ans; or if total is greater than target or index exceeds len(combinations), return. Also, if we append to the subset, then run dfs but don't increment index for the first recursion call (to include the element multiple times), we can move forward in the second recursion call where we don't include the lement in the subset.
