@@ -1,1 +1,1 @@
-​
+Serialize and deserialize is basically converting a tree to a string and coverting a string to a tree respectively. We will use pre-order to do the former and also append None to the answer string. In the latter, we will recursively construct a tree.​
