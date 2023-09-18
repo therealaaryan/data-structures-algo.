@@ -1,1 +1,1 @@
-​
+​Find the distance and create a minHeap with [distance, x, y] as the element. The heap will sort it according to the first element that is the distance in this case. Keep popping the first k elements.
