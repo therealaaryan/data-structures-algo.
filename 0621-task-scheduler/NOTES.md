@@ -1,1 +1,1 @@
-​
+We will be using a heap to find the priority order for scheduling. Maintain a hashmap for tasks and their occurence. Then convert the count into heap. Create a time variable that will increment by one on each iteration. We will pop from heap and reduce 1 from the task occurence (since it has occured once), and add it to a queue along with its next scheduled run (time + n). Then, if the first element of the queue has a timerun at current timestamp, pop it from the queue and push it to the heap again. Finally, when both queue and heap are empty, return the time.
