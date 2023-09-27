@@ -1,1 +1,1 @@
-​
+Create two hashmaps, one to map followers and followee and the other to map users and theri tweets. To get feed, set a pointer on the end points of all follower tweets for a user, and move them to a heap. Shift the pointer while doing so.​
