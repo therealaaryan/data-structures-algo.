@@ -1,1 +1,1 @@
-​
+We will maintain two pointers at every index that will map maximum of either including ​the current index and the pointer that skips the previous one, or the other pointer that skips the current one. FInally, return the pointer that is at the end of the array.
