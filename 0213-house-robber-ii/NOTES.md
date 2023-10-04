@@ -1,1 +1,1 @@
-​
+​We will use the exact similar method like we used in house robber 1, but we'll do that on nums[:len(nums) - 1] and nums[1:]; returning the maximum among them and nums[0] (if there's only one element).
