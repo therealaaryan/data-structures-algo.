@@ -1,1 +1,1 @@
-​
+We'll iterate through every letter of the string and branch out from that letter towards left and right. We'll keep checking if the branching is within bounds and if teh letters are equal on both sides. We'll also run two cases for this, first if the palindrome is of odd length then we'll set both branching pointers at i initially and for even length, we'll set the pointers at i and i + 1. Keep counting the palindrome while the branching out is happening.​
