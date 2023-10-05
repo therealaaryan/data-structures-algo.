@@ -1,1 +1,1 @@
-​
+We will iterate through every letter of the string and branch outwards with two pointers, to see if a palindrome is there or not. We will branch out once by setting both pointers at i (for odd palindrome case) and the other by keeping one at i and the other at i + 1 (for even palindrome case).
