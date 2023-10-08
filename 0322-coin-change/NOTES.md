@@ -1,1 +1,1 @@
-​
+The dp approach for this will be bottom to top approach. We will calculate the minimum coins used for every amount upto the amount given. The dp for every amount will be the minimum between the default value set for that dp amount or dp[current amount - current coin] + 1 (+1 represents the current coin).
