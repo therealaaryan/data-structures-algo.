@@ -1,1 +1,1 @@
-​
+We'll keep a track of maximum and minimum product found while traversing the array, and keep multiplying current element ot both of them and updating them. Also, final result after every iteration will be the maximum between ans and current maximum.
