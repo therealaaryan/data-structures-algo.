@@ -1,1 +1,1 @@
-​
+We'll create a dp cache for every letter in s, setting a shoulder dp, setting it as True, while setting th eremaining as False. While iterating the dp backwards, we'll see if s[i : i + len(element of word in wordDict)] == the word in wordDict. If it is, then set dp[i] as True. Also, if dp[i] is already True, break out of the loop. Finally, return dp[0].​
