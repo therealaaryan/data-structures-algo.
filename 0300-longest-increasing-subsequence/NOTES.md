@@ -1,1 +1,1 @@
-​
+​We'll maintain a cache for every element that will have the longest subsequence including itself. We'll do that by iterating for every element and then for that element, iterate from that element to the end. If the element at j is greater than the current element i, then dp[i] = max(dp[i], 1 = dp[j]). Return the max of the dp.
