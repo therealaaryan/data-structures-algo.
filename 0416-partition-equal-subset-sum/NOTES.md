@@ -1,1 +1,1 @@
-​
+​We will create a dp cache (set) and add 0 to it initially. We will then iterate through nums and add i to every element in the set repeatedly. If target(sum(nums)/2) is found, return True. By doing so, we'll be trying to find the sum of every possible combination.
