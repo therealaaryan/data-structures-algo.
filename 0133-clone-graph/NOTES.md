@@ -1,1 +1,1 @@
-​
+We'll use recursion for this. We'll create a hashmap, mapping nodes to their clones. In the recursion function, we'll create a clone node with the node.val, map it to node in the hashmap. Then, for every neighbor in node.neighbors, we'll append the recursion of the neighbors to the neighbors of the clone. The function will either return the value of the hashmap if it contains the key i.e the node (base case), or else it'll return the  clone. Finally, return the dfs.​
