@@ -1,6 +1,7 @@
 class Solution:
     def pacificAtlantic(self, heights: List[List[int]]) -> List[List[int]]:
         rows, cols = len(heights), len(heights[0])
+        directions = ((1, 0), (-1, 0), (0, 1), (0, -1))
         
         pac, atl = set(), set()
         
@@ -10,10 +11,11 @@ class Solution:
             
             visit.add((i, j))
             
-            dfs(i + 1, j, visit, heights[i][j])
-            dfs(i - 1, j, visit, heights[i][j])
-            dfs(i, j + 1, visit, heights[i][j])
-            dfs(i, j - 1, visit, heights[i][j])
+            for direction in directions:
+                next_i, next_j = i + direction[0], j + direction[1]
+                
+                if 0 <= next_i < rows and 0 <= next_j < cols and heights[next_i][next_j] >= prevHeight:
+                    dfs(next_i, next_j, visit, heights[i][j])
         
         for c in range(cols):
             dfs(0, c, pac, heights[0][c])
