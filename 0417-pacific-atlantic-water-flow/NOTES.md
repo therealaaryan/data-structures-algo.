@@ -1,1 +1,3 @@
-​
+We'll solve this in an opposite manner. We'll see the cells that the oceans can enter. We'll keep two visited sets, one for pacific and one for atlantic. We'll also maintain previous height in the dfs argument. Because we're going the opposite way, the ocean can enter those cells that are greater than previous in height. We'll perform dfs starting from first row, changin columns while keeping the rows constant, while passing pacific set as visit set in dfs argument (because that strip faces pacific) and do the same for last row while changing the columns for atlantic. We'll do that keeping cols fixed and changing rows too for pacific and atlantic. Finally, the (r,c) pairs that are both in pacific and atlantic set will be the answer.
+
+The reason we're doing the ooposite way is to keep a correct track of visit sets for pacific and atlantic cells.​
