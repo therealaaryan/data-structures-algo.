@@ -1,1 +1,1 @@
-​
+Basically, we will convert all the Os that cannot be surrounded by Xs into Ts (temp variable), then we'll convert the remaining Os into Xs and turn the Ts back to Os. The only Os that cannot be surrounded by Xs are the ones that are on the borders. Run DFS. ​
