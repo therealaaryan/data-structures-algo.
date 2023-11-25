@@ -1,1 +1,1 @@
-​
+​We are using two sets to keep track of cycle (because it is a directed graph), visited and inRecursion. Visited set will obviously store the visited nodes while the inRecursion one will store the element while the dfs is running and pop from it once the dfs is over. This is done because an element could've been visited earlier yet doesn't form a cycle.
